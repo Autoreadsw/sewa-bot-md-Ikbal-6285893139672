@@ -494,7 +494,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                if (!('autoread' in setting)) setting.autoread = false
                if (!('autorecordtype' in setting)) setting.autorecordtype = false
                if (!('autorecord' in setting)) setting.autorecord = false
-               if (!('autotype' in setting)) setting.autotype = false
+               if (!('autotype' in setting)) setting.autotype = true
                if (!('autoblocknum' in setting)) setting.autoblocknum = false
                if (!('onlyindia' in setting)) setting.onlyindia = false
                if (!('onlyindo' in setting)) setting.onlyindo = false
@@ -516,7 +516,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                onlypc: false,
                autorecordtype: false,
                autorecord: false,
-               autotype: false,
+               autotype: true,
                watermark: {
                   packname: global.packname, 
                   author: global.author
@@ -6667,7 +6667,7 @@ case 'blur':
   ${xeonytimewisher} 😀
 
 ╔═══❑ 𝗕𝗢𝗧-𝗜𝗡𝗙𝗢 ❑════❀
-║[🗿] 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : V.10
+║[🗿] 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : V.11
 ║[🚀] 𝚂𝚙𝚎𝚎𝚍 : ${latensie.toFixed(4)} miliseconds
 ║[⏳] 𝚁𝚞𝚗𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ║[🤖] ʙᴏᴛ : ${botname}
@@ -6735,8 +6735,8 @@ case 'blur':
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6759,8 +6759,8 @@ let xmenu_oh = `Hi ${pushname}\n${allmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6783,8 +6783,8 @@ let xmenu_oh = `Hi ${pushname}\n${ownermenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6807,8 +6807,8 @@ let xmenu_oh = `Hi ${pushname}\n${othermenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6831,8 +6831,8 @@ let xmenu_oh = `Hi ${pushname}\n${downloadmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6855,8 +6855,8 @@ let xmenu_oh = `Hi ${pushname}\n${groupmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6879,8 +6879,8 @@ let xmenu_oh = `Hi ${pushname}\n${funmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6903,8 +6903,8 @@ let xmenu_oh = `Hi ${pushname}\n${stalkermenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6927,8 +6927,8 @@ let xmenu_oh = `Hi ${pushname}\n${randphotomenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6951,8 +6951,8 @@ let xmenu_oh = `Hi ${pushname}\n${randvideomenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6975,8 +6975,8 @@ let xmenu_oh = `Hi ${pushname}\n${photooxymenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -6999,8 +6999,8 @@ let xmenu_oh = `Hi ${pushname}\n${ephoto360menu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7023,8 +7023,8 @@ let xmenu_oh = `Hi ${pushname}\n${makermenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7047,8 +7047,8 @@ let xmenu_oh = `Hi ${pushname}\n${nsfwmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7071,8 +7071,8 @@ let xmenu_oh = `Hi ${pushname}\n${animemenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7095,8 +7095,8 @@ let xmenu_oh = `Hi ${pushname}\n${stickermenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7119,8 +7119,8 @@ let xmenu_oh = `Hi ${pushname}\n${databasemenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7143,8 +7143,8 @@ let xmenu_oh = `Hi ${pushname}\n${aimenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7167,8 +7167,8 @@ let xmenu_oh = `Hi ${pushname}\n${bugmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7198,8 +7198,8 @@ let xmenu_oh = `Hi ${pushname}\n${soundmenu(prefix, hituet)}`
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2e057689d4c0c8249ca8a.jpg',
-      sourceUrl: `https://chat.whatsapp.com/HL8oaxQMOFkChPd1UbkgRK`,
+      thumbnailUrl: 'https://telegra.ph/file/fd5a6d1272cfc62cd754d.jpg',
+      sourceUrl: `https://chat.whatsapp.com/D0GWMlupOZlEijH0hIdh0W`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
